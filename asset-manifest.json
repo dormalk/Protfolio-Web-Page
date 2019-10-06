@@ -1,10 +1,21 @@
 {
-  "main.css": "static/css/main.3fb3765f.css",
-  "main.css.map": "static/css/main.3fb3765f.css.map",
-  "main.js": "static/js/main.65877a76.js",
-  "main.js.map": "static/js/main.65877a76.js.map",
-  "static\\media\\github.svg": "static/media/github.e4f2d6b0.svg",
-  "static\\media\\google-drive.svg": "static/media/google-drive.7fea10b7.svg",
-  "static\\media\\graduation.svg": "static/media/graduation.721cc5f8.svg",
-  "static\\media\\portfolio.svg": "static/media/portfolio.f22bc5ac.svg"
+  "files": {
+    "main.css": "/Protfolio-Web-Page/static/css/main.64364446.chunk.css",
+    "main.js": "/Protfolio-Web-Page/static/js/main.1fa6aced.chunk.js",
+    "main.js.map": "/Protfolio-Web-Page/static/js/main.1fa6aced.chunk.js.map",
+    "runtime-main.js": "/Protfolio-Web-Page/static/js/runtime-main.b41b7c90.js",
+    "runtime-main.js.map": "/Protfolio-Web-Page/static/js/runtime-main.b41b7c90.js.map",
+    "static/js/2.186b54af.chunk.js": "/Protfolio-Web-Page/static/js/2.186b54af.chunk.js",
+    "static/js/2.186b54af.chunk.js.map": "/Protfolio-Web-Page/static/js/2.186b54af.chunk.js.map",
+    "index.html": "/Protfolio-Web-Page/index.html",
+    "precache-manifest.f15c9bb4d4b8b2ac57eec11ece85eace.js": "/Protfolio-Web-Page/precache-manifest.f15c9bb4d4b8b2ac57eec11ece85eace.js",
+    "service-worker.js": "/Protfolio-Web-Page/service-worker.js",
+    "static/css/main.64364446.chunk.css.map": "/Protfolio-Web-Page/static/css/main.64364446.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b41b7c90.js",
+    "static/js/2.186b54af.chunk.js",
+    "static/css/main.64364446.chunk.css",
+    "static/js/main.1fa6aced.chunk.js"
+  ]
 }
