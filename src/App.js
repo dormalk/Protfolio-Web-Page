@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import WelcomePage from './components/WelcomePage';
 import ProjectsPage from './components/ProjectsPage';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
 import projects from './drive-projects';

@@ -20,7 +20,7 @@ function Header(props) {
     return (
         <div>
             <div className="hamburger" onClick={() => openNavBar()}>
-                <img src="./images/menu.svg" alt="menu" width="30" height="30"/>
+                <img src="images/menu.svg" alt="menu" width="30" height="30"/>
                 <div className="downloadCv" onClick={()=> {downloadCV()}}>Download CV</div>
             </div>
             <div className={headerClass}>

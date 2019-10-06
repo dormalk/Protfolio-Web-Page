@@ -5,7 +5,7 @@
     background-color: #e43500;
     position: fixed;
     top: 0px;
-    z-index: 3;
+    z-index: 5;
 }
 
 .header ul{
@@ -94,6 +94,7 @@ button:active{
         background: white;
         width: 100%;
         top: 0px;
+        z-index: 4;
         padding: 5px 0px;
     }
     .hamburger img {

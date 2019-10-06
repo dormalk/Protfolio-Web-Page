@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://dormalk.github.io/Protfolio-Web-Page/" />
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" sizes="192x192" href="/public/icons/icon-192x192-apple.jpg">
+    <meta name="theme-color" content="#000000">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
@@ -28,4 +32,13 @@
       To create a production bundle, use `npm run build`.
     -->
   </body>
+
+  <script>
+    // register ServiceWorker, remember to use absolute path!
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/Protfolio-Web-Page/sw.js', {scope: '/Protfolio-Web-Page/'})
+    }
+    
+    // --- Application code here ---
+  </script>
 </html>

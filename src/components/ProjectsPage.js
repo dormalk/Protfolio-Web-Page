@@ -10,7 +10,7 @@ function renderImage(repo){
         case 'Python':
             return <img src="./images/python.jpg" alt="python" className="image"/>;
         case 'C++':
-                return <img src="./images/C++.jpg" alt="c++" className="image"/>;
+                return <img src="./images/cpp.jpg" alt="c++" className="image"/>;
         case 'C#':
                 return <img src="./images/csharp.jpg" alt="csharp" className="image"/>;
         case 'Java':
