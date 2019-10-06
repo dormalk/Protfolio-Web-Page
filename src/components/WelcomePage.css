@@ -1,0 +1,76 @@
+.welcomePage img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.welcomePage, .mainDetails{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.mainDetails{
+    margin-left: 1.5rem;
+}
+.mainDetails h2, .mainDetails h4{
+    margin:0.2rem 0px ;
+}
+.mainDetails ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+}
+.page{
+    margin-top: 3rem;
+}
+
+.study{
+    background-image: url('../../public/images/graduation.svg');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left top;
+    padding-left: 65px;
+}
+
+.works{
+    background-image: url('../../public/images/portfolio.svg');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left top;
+    padding-left: 60px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 440px){
+    .mainDetails ul{
+        padding: 0px
+    }
+    .top{
+        flex-direction: column;
+    }
+
+    .welcomePage img {
+        margin: auto;
+    }
+    .mainDetails {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .study{
+        background: unset;
+        padding:0px;
+    }
+    .works{
+        background: unset;
+        padding:0px;
+    }
+
+}
+

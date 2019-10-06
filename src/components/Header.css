@@ -1,0 +1,115 @@
+.header{
+    width: 100%;
+    height: 35px;
+    box-shadow: 0px 1px 4px rgba(20,20,20,0.4);
+    background-color: #e43500;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    margin-right: 3rem;
+}
+
+.header li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8.5px 16px;
+    text-decoration: none;
+    transition: background-color 150ms linear;
+}
+
+li a:hover {
+    background-color: #cc3203;
+}
+
+.active {
+    border-top: 3px solid #9b2105;
+    padding: 7px 16px;
+    background-color: #cc3203;
+}
+
+button {
+    float: right;
+    margin: 5.5px 0px;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    color: #333;    
+    background-color: white;
+    border: 0px;
+    transition: background-color 150ms linear;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    background-color: #f1f1f1;
+}
+
+.hamburger{
+    display: none;
+}    
+
+.downloadCv{
+    display: none;
+}
+@media only screen and (max-width: 440px){
+    .header{
+        height: 100%;
+        width: 50%; 
+        overflow: hidden;
+        transition: all 150ms linear;
+        clear: both;
+    }
+
+    .header.close {
+        width: 0px;
+    }
+
+    .header ul{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .active {
+        border-top: 0px;
+        border-left: 3px solid #9b2105;
+    }
+    .hamburger{
+        display: block;
+        position: fixed;
+        background: white;
+        width: 100%;
+        top: 0px;
+        padding: 5px 0px;
+    }
+    .hamburger img {
+        margin-left: 10px;
+    }
+    .header button{
+        display: none;
+    }
+
+    .downloadCv{
+        display: inline;
+        float: right;
+        text-align: center;
+        margin-right: 15px;
+        padding: 5px 10px;
+        border: 1px dotted red;
+    }
+
+}

@@ -1,0 +1,67 @@
+.repo {
+    box-shadow: 0px 2px 5px grey;
+    width: 28%;
+    min-width: 200px;
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+    transition: all 100ms linear;
+}
+
+.repo img {
+    width: 100%;
+}
+
+
+.repo:hover {
+    transform: scale(1.05); /* Equal to scaleX(0.7) scaleY(0.7) */
+}
+
+.repo span {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 3px 0px;
+}
+
+.repo .git{
+    float: right;
+    text-decoration: none;
+    color: darkslateblue;
+    background-image: url('../../public/images/github.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right 8px center;
+    padding: 3px 8px ;
+    padding-right: 32px;
+    border: 1px dotted grey;
+}
+
+
+.repo .drive{
+    float: right;
+    text-decoration: none;
+    color: red;
+    background-image: url('../../public/images/google-drive.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right 8px center;
+    padding: 3px 8px ;
+    padding-right: 32px;
+    border: 1px dotted grey;
+}
+
+.repo{
+    clear: both;
+}
+
+@media only screen and (max-width: 440px){
+    .repo{
+        margin: 12px 0px;
+        width: 100%;
+        padding: 3px;
+        margin-left: -3px;
+    }
+}
