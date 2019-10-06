@@ -31,7 +31,7 @@
     float: right;
     text-decoration: none;
     color: darkslateblue;
-    background-image: url('../../public/images/github.svg');
+    background-image: url('../icons/github.svg');
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: right 8px center;
@@ -45,7 +45,7 @@
     float: right;
     text-decoration: none;
     color: red;
-    background-image: url('../../public/images/google-drive.svg');
+    background-image: url('../icons/google-drive.svg');
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: right 8px center;
