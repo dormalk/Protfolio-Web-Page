@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Protfolio-Web-Page/static/css/main.64364446.chunk.css",
+    "main.css": "/Protfolio-Web-Page/static/css/main.d0ecfb5b.chunk.css",
     "main.js": "/Protfolio-Web-Page/static/js/main.1fa6aced.chunk.js",
     "main.js.map": "/Protfolio-Web-Page/static/js/main.1fa6aced.chunk.js.map",
     "runtime-main.js": "/Protfolio-Web-Page/static/js/runtime-main.b41b7c90.js",
@@ -8,14 +8,14 @@
     "static/js/2.186b54af.chunk.js": "/Protfolio-Web-Page/static/js/2.186b54af.chunk.js",
     "static/js/2.186b54af.chunk.js.map": "/Protfolio-Web-Page/static/js/2.186b54af.chunk.js.map",
     "index.html": "/Protfolio-Web-Page/index.html",
-    "precache-manifest.f15c9bb4d4b8b2ac57eec11ece85eace.js": "/Protfolio-Web-Page/precache-manifest.f15c9bb4d4b8b2ac57eec11ece85eace.js",
+    "precache-manifest.cc5a6dbc04f8b568964ce6afbe79fcff.js": "/Protfolio-Web-Page/precache-manifest.cc5a6dbc04f8b568964ce6afbe79fcff.js",
     "service-worker.js": "/Protfolio-Web-Page/service-worker.js",
-    "static/css/main.64364446.chunk.css.map": "/Protfolio-Web-Page/static/css/main.64364446.chunk.css.map"
+    "static/css/main.d0ecfb5b.chunk.css.map": "/Protfolio-Web-Page/static/css/main.d0ecfb5b.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.b41b7c90.js",
     "static/js/2.186b54af.chunk.js",
-    "static/css/main.64364446.chunk.css",
+    "static/css/main.d0ecfb5b.chunk.css",
     "static/js/main.1fa6aced.chunk.js"
   ]
 }
