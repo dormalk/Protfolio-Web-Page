@@ -1,5 +1,5 @@
-# NodeChatApp
-  Protfolio Web Page
+# Protfolio Web Page
+  Nice way to present git works protfolio
 
 ## Implementation 
   Language: React
