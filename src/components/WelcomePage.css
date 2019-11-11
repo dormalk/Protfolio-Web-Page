@@ -32,7 +32,7 @@
 }
 
 .study{
-    background-image: url('../../public/images/graduation.svg');
+    background-image: url('../icons/graduation.svg');
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: left top;
@@ -40,7 +40,7 @@
 }
 
 .works{
-    background-image: url('../../public/images/portfolio.svg');
+    background-image: url('../icons/portfolio.svg');
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: left top;
