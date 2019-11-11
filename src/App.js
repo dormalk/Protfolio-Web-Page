@@ -35,7 +35,7 @@ class App extends Component {
       const tsjs = res.data.filter(repo => repo.language === 'TypeScript' || repo.language === 'JavaScript');
       const python = res.data.filter(repo => repo.language === 'Python' || repo.language === 'C++');
       const csjav = res.data.filter(repo => repo.language === 'C#' || repo.language === 'Java');
-      const php = res.data.filter(repo => repo.language === 'PHP');
+      const php = res.data.filter(repo => repo.language === 'PHP' || repo.language === 'Ruby');
       const otrs = res.data.filter(repo => repo.language === null).concat(projects);
       
       const repos = { tsjs,python,csjav,php,otrs };

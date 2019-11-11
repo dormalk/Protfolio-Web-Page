@@ -30,7 +30,7 @@ function Header(props) {
                         <li><NavLink to={'/js'} activeClassName="active" onClick={() => openNavBar()}>Js/Ts ({props.tsjsCount})</NavLink></li>
                         <li><NavLink to={'/python'} activeClassName="active" onClick={() => openNavBar()}>Python/C++ ({props.pythonCount})</NavLink></li>
                         <li><NavLink to={'/csjav'} activeClassName="active" onClick={() => openNavBar()}>Java/C# ({props.csjavCount})</NavLink></li>
-                        <li><NavLink to={'/php'} activeClassName="active" onClick={() => openNavBar()}>PHP ({props.phpCount})</NavLink></li>
+                        <li><NavLink to={'/php'} activeClassName="active" onClick={() => openNavBar()}>PHP/Ruby ({props.phpCount})</NavLink></li>
                         <li><NavLink to={'/otrs'} activeClassName="active" onClick={() => openNavBar()}>Others ({props.otrsCount})</NavLink></li>
                         <button onClick={() => {downloadCV()}}>Download CV</button>
                     </ul>
