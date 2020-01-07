@@ -19,6 +19,14 @@ const projects = [
         url: 'https://drive.google.com/drive/folders/1KefKZjOg72KXonzjnwVnRAoKkA3inDQV?usp=sharing',
         language: 'google-drive',
         node_id: 'a9faju3'
+    },
+    {
+        name: "GO! Street",
+        pic: 'https://i.ibb.co/m5P2bMx/otrs.jpg',
+        url: 'https://gostreet.herokuapp.com/',
+        language: 'website',
+        favicon: 'https://gostreet.herokuapp.com/assets/images/favicon.ico',
+        node_id: '-1'
     }
 ];
 

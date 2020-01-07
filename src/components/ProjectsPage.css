@@ -40,6 +40,17 @@
     border: 1px dotted grey;
 }
 
+.repo .site{
+    float: right;
+    text-decoration: none;
+    color: red;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right 8px center;
+    padding: 3px 8px ;
+    padding-right: 32px;
+    border: 1px dotted grey;
+}
 
 .repo .drive{
     float: right;
